@@ -4,7 +4,7 @@
     实验分为buie sunshape 和 normal slope error 两组实验。
     
     
-    一级目录--result
+    一级目录--QMCRT
            二级目录--Buie_sunshape
                            三级目录--data（实验CSV结果文件）
                                           六个文件，分别为csr=0.01,0.02,0.03的实验结果以及对csr=0.01,0.02,0.03做修正的实验结果（修正方式参考Tonatiuh）
