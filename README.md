@@ -2,6 +2,8 @@
 说明： 
     本文件夹存放本次围绕QMCRT实验特定镜场的结果。
     实验分为buie sunshape 和 normal slope error 两组实验。
+    
+    
     一级目录--result
            二级目录--Buie_sunshape
                            三级目录--data（实验CSV结果文件）
