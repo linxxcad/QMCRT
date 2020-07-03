@@ -6,22 +6,22 @@ The tests are based on the related experiments as described in (Wang et al., 202
 
 The details are recorded and shared in this Github repository for people who are interested. The content includs:.
 
-Buie_sunshape
-     --data
-           This folder contains six files. There are three files results of three CSR(0.01,0.02,0.03) tests in QMCRT ,other three files are results of CSR(0.01,0.02,0.03) with the polynomial calibration in QMCRT.
-     --plots
-           --energy  /    differen不同仿真工具接收器接受的总能量
-           --flux_diff    /     csr=0.03 的不同仿真工具接收器接收能量密度的比较
-           --flux_map     /     不同仿真工具在csr为0.01，0.02 ，0.03的接收到的能量密度的热力图(做过csr修正,修正方式参考Tonatiuh）
-           --radiance    /    Buie sunshape(QMCRT）的normalised radiance 结果；
-                                                                                  Buie sunshape(QMCRT）的normalised radiance 结果(做过csr修正,修正方式参考Tonatiuh）                                                                                   
-Normal_slope_error
-                          --data
+##Buie_sunshape
+###data(data files)
+           This folder contains three files. The three files are results of three tests in QMCRT with Tonatiuh's polynomial calibration for CSR(0.01,0.02,0.03) .
+###plots(figures and comparison)
+   ####energy       /    The total energy power on the target in different optical modelling tools.
+   ####flux_diff    /    The flux density distribution on the target in differnet optical modelling tools compared with Tonatiuh in csr=0.03.
+   ####flux_map     /    The flux density distribution on the target in differnet optical modelling tools showed in flux map with CSR calibration.
+   ####radiance    /     The normalised radiance distribution on the target          
+   
+##Normal_slope_error
+###data(data files)
                                            三个文件，分别为normal slope error为1 mrad，2 mrad ，3 mrad 的实验结果
-                          --plots
-                                           四级目录--energy  /    不同仿真工具接收器接受的总能量
-                                           四级目录--flux_diff    /     normal slope error=1 mrad 的不同仿真工具接收器接收能量密度的比较
-                                           四级目录--flux_map     /     不同仿真工具在normal slope error为1 mrad，2 mrad ，3 mrad 的接收到的能量密度的热力图
-                                           四级目录--radiance    /     normal slope error（QMCRT）的normalised radiance 结果；
+###plots(figures and comparison)
+    ####energy  /    不同仿真工具接收器接受的总能量
+    ####flux_diff    /     normal slope error=1 mrad 的不同仿真工具接收器接收能量密度的比较
+    ####flux_map     /     不同仿真工具在normal slope error为1 mrad，2 mrad ，3 mrad 的接收到的能量密度的热力图
+    ####radiance    /     normal slope error（QMCRT）的normalised radiance 结果；
                                                                                    不同仿真工具（normal slope error）normalised radiance 结果
                                                                                    
