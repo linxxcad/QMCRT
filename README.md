@@ -8,7 +8,7 @@ The content includs:<br>
 
 * Buie_sunshape<br>
   * data(data files)<br>
-  This folder contains six files. <br> The first half files are results of three tests in QMCRT for CSR(0.01,0.02,0.03)<br>The other three files are results of three tests in QMCRT with Tonatiuh's polynomial calibrated CSR(0.01,0.02,0.03)
+  This folder contains six files. <br> The first half files are results of three tests in QMCRT with Tonatiuh's polynomial calibrated CSR(0.01,0.02,0.03)<br>The other three files are results of three tests in QMCRT for CSR(0.01,0.02,0.03).
   * plots(figures and comparison)<br>
     * energy<br>      The total energy received on the target in different optical modelling tools.
     * flux_diff<br>    The flux density distribution on the target in different optical modelling tools compared to Tonatiuh in csr=0.03.
