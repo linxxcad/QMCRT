@@ -1,6 +1,6 @@
 # QMCRT
 
-This repositories contains the verifications and comparisons of optical simulation results from QMCRT and six optical modelling tools in Concentrating Solar Power (CSP) research.The six other modelling tools are SolTrace, Tonatiuh, Tracer, Solstice, Heliosim and SolarPILOT.<br>
+This repository contains the verifications and comparisons of optical simulation results from QMCRT and six optical modelling tools in Concentrating Solar Power (CSP) research.The six other modelling tools are SolTrace, Tonatiuh, Tracer, Solstice, Heliosim and SolarPILOT.<br>
 
 The experiments consists of two rounds of tests.They are based on the related experiments described in (Wang et al., 2020) which aims at investigating the effect of sunshape and surface slope error.<br>
 
