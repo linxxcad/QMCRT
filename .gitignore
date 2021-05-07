@@ -1,0 +1,19 @@
+## Ignore
+
+# Build Results
+cmake-build-debug/
+cmake-build-release/
+my-build-debug/
+my-build-release/
+
+# CLion files
+.idea
+
+# Third-party files
+SolarEnergyRayTracingTests/lib
+Scene/json-develop
+
+# Output
+OutputFiles/
+SolarEnergyRayTracingTests/ToolTests/test_output
+
